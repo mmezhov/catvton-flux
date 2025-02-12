@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       model_name:
-        description: 'mmezhov/catvton-flux'
+        description: 'Enter the model name, like "alice/bunny-detector"'
         required: true
  
 jobs:
